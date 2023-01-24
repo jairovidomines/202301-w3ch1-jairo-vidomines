@@ -2,10 +2,9 @@
   "name": "challenge-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "parcel build src/index.html --no-source-maps",
+    "build": "parcel build src/index.html",
     "prebuild:dev": "rimraf dist",
     "build:dev": "parcel src/index.html",
     "prepare": "husky install"
