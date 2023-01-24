@@ -2,7 +2,24 @@ body {
   background-color: #b9540c;
   overflow: hidden;
 }
-
 .character__name {
   height: 60px;
+}
+.character__card {
+  position: relative;
+  border: none;
+  background-color: #331c0e;
+  color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.character__picture {
+  object-fit: cover;
+  object-position: top;
+  height: 200px;
+}
+.characters-list {
+  flex-wrap: nowrap;
+  max-width: 100%;
+  min-height: 100vh;
+  align-items: center;
 }
